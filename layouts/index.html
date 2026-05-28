@@ -22,9 +22,20 @@
       text-decoration-thickness: 0.08em;
       text-underline-offset: 0.18em;
     }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid #e5e7eb;
+      font-size: 0.95rem;
+      color: #4b5563;
+    }
   </style>
 </head>
 <body>
   {{ .Content }}
+  <footer>
+    &copy; 2025 - {{ now.Year }} <a href="https://oczadly.io/">Paweł Oczadły</a>
+  </footer>
 </body>
 </html>
