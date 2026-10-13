@@ -6,7 +6,7 @@ runs:
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v3
       with:
-        hugo-version: '0.162.0'
+        hugo-version: '0.168.0'
         extended: true
 
     - name: Build with Hugo
